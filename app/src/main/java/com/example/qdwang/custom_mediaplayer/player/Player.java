@@ -63,7 +63,8 @@ public class Player extends BasePlayer implements SurfaceHolder.Callback {
 
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
-
+        meidaPlayer.release();
+        meidaPlayer = null;
     }
 
     @Override

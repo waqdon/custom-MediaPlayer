@@ -96,8 +96,8 @@ public abstract class BasePlayer implements PlayInterface.PlayerStateObserver {
         if (listener != null) {
             listener.onPlayerPrepared();
         }
-        if(meidaPlayer != null)
-            meidaPlayer.start();
+//        if(meidaPlayer != null)
+//            meidaPlayer.start();
     }
 
     @Override
